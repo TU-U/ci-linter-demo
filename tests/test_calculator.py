@@ -8,8 +8,10 @@ from calculator import add, subtract
 def test_add_normal():
     assert add(2, 3) == 5
 
+
 def test_add_negative():
     assert add(-1, 1) == 0
+
 
 def test_add_type_error():
     try:
@@ -22,9 +24,11 @@ def test_add_type_error():
 def test_subtract_normal():
     assert subtract(5, 3) == 2
 
+
 def test_subtract_boundary():
     assert subtract(0, 0) == 0
     assert subtract(-1e9, 1e9) == -2e9
+
 
 def test_subtract_type_error():
     import pytest
