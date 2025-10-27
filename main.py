@@ -5,8 +5,8 @@ def greet(name):
 
 def long_line():
     x = (
-        "This is a long string split across multiple lines so that it does not"
-        " exceed the recommended maximum line length."
+        "This is a long string split across multiple lines so that it does not "
+        "exceed the recommended maximum line length."
     )
     print(x)
 
