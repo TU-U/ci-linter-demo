@@ -2,7 +2,8 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from calculator import add
+from calculator import add, subtract
+
 
 def test_add_normal():
     assert add(2, 3) == 5
