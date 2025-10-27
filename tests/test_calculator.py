@@ -21,6 +21,7 @@ def test_add_type_error():
     else:
         assert False
 
+
 def test_subtract_normal():
     assert subtract(5, 3) == 2
 
@@ -32,6 +33,6 @@ def test_subtract_boundary():
 
 def test_subtract_type_error():
     import pytest
+
     with pytest.raises(TypeError):
         subtract("a", 1)
-
